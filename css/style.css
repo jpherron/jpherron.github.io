@@ -1,0 +1,39 @@
+svg {
+  position: absolute;
+  z-index: 2;
+  width: 700px;
+  height: 700px;
+}
+
+/* sliders */
+.leftSlider {
+   position: absolute;
+   transform-origin: left;
+   transform: rotate(-60deg);
+   width: 594px;
+   top: 563px;
+   left: 52px;
+   height: 0px; 
+  z-index: 3;
+}
+
+.rightSlider {
+  position: absolute;
+  transform-origin: left;
+  transform: rotate(59.6deg);
+  width: 600px;
+  height: 0px;
+  top: 47px;
+  left: 348px;
+  z-index: 3;
+}
+
+.bottomSlider {
+   position: absolute;
+   height: 0px;
+   z-index: 3;
+   top: 565px;
+   left: 50px;
+   width: 600px;
+
+}
